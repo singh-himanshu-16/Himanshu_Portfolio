@@ -1,0 +1,53 @@
+
+.navbar_container{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    padding: 0 10%;
+}
+
+.navbar_left{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(35, 131, 196);
+    opacity: 0.9;
+    transition: transform 300ms;
+    cursor:pointer
+}
+.navbar_left:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.navbar_right{
+    display: flex;
+   
+
+}
+
+.navbar_right > p {
+    margin-right: 10px;
+    padding: 8px 10px;
+    font-size: 18px;
+   font-weight: 500;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(35, 131, 196);
+    border-radius: 8px;
+}
+
+.navbar_right > p:hover{
+    background-color: whitesmoke;
+    color: rgb(35, 131, 196);
+    cursor: pointer;
+    border-radius: 8px;
+    /*transition-duration: 0.1s;*/
+}

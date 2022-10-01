@@ -1,0 +1,15 @@
+
+.projects_title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.projects_box_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.projects_box_maincontainer {
+    margin-top: 4%;
+}

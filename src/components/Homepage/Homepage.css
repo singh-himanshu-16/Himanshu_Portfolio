@@ -1,0 +1,81 @@
+
+
+.homepage_container{
+   display: flex;
+   padding: 0 9%;
+    align-items: center;
+    height: 90vh;
+    margin-top: 5%;
+    background-image: url('https://i.pinimg.com/736x/4c/44/39/4c443992f6106654fc270b3ca708d29e.jpg');
+    background-position: center;
+    background-size: cover;
+   background-color: rgba(0, 0, 0, 0.377);
+    background-blend-mode: multiply;
+}
+.homepage_left{
+    flex: 0.6;
+    padding-right: 35px;
+}
+.homepage_right{
+    flex: 0.4;
+}
+.homepage_right > img {
+    width: 90%;
+    height: 40vh;
+
+}
+.red_color{
+    color: rgb(35, 131, 196);
+
+}
+
+.red_color_h3{
+    color: rgb(35, 131, 196);
+    font-weight: 250;
+}
+.homepage_left_h1{
+    font-size: 30px;
+
+}
+.homepage_left_h2{
+    color: rgb(233, 44, 44);
+    font-size: 60px;
+    font-weight: 700;
+    margin: -15px 0;
+
+}
+.homepage_left_h3{
+    font-size: 30px;
+}
+.homepage_left_description{
+    color: rgb(233, 44, 44);
+    font-size: 25px;
+
+}
+.homepage_left_button{
+    margin-top: 25px;
+    font-size: 25px;
+    padding: 8px 10px;
+    background-color: #181818;
+    border-radius: 20px;
+    color: rgb(233, 44, 44);
+    cursor: pointer;
+    
+}
+.homepage_logo{
+    height: 80px;
+    margin-top: 2%;
+    
+}
+.homepage_logo:hover{
+    transform:scale(1.2);
+    transition-duration: 0.2s;
+}
+
+/*
+https://wallpaperaccess.com/full/4127447.jpg
+https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?cs=srgb&dl=pexels-pixabay-276452.jpg&fm=jpg
+
+https://wallpaperaccess.com/full/1419743.jpg
+
+*/
